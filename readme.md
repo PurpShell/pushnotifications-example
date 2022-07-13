@@ -29,7 +29,7 @@ and edit the first line variable to equal the public key.
 ```
 npm start
 ```
-
+Note: go to http://localhost/broadcast.html to test send a message to all subscribers
 ## Contributing
 You are free to update this repo with a pull request or creating an issue if any changes are made to the components of this proof of concept (the Push API)
 
