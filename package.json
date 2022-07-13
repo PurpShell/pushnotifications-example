@@ -1,0 +1,32 @@
+{
+  "name": "pushnotifications-example",
+  "version": "1.0.0",
+  "description": "Node.js & Vanilla HTML/JS Push API example so you & I can understand it better!",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purpshell/pushnotifications-example.git"
+  },
+  "keywords": [
+    "push-api",
+    "api",
+    "nodejs"
+  ],
+  "author": "PurpShell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purpshell/pushnotifications-example/issues"
+  },
+  "homepage": "https://github.com/purpshell/pushnotifications-example#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "lowdb": "github:dankreiger/lowdb#chore/esm-cjs-hybrid-WITH-LIB",
+    "web-push": "^3.5.0"
+  }
+}
