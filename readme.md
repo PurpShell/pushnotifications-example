@@ -13,9 +13,13 @@ npm install
 
 ### Before you run this app:
 Rename the file called `.env.example` to `.env`.
+
 Run `npx web-push generate-vapid-keys`, note the public and private keys and update the following in the `.env` file:
+
 `VAPID_PUBLIC_KEY` to the public key
+
 `VAPID_PRIVATE_KEY` to the private key
+
 then open `./public/index.js`
 and edit the first line variable to equal the public key.
 
@@ -29,6 +33,6 @@ npm start
 ## Contributing
 You are free to update this repo with a pull request or creating an issue if any changes are made to the components of this proof of concept (the Push API)
 
-If you feel like this repository made you understand Push Notifications better, follow me on [GitHub page](https://github.com/PurpShell) or donate to my [PayPal][https://paypal.com/RajehTaher]
+If you feel like this repository made you understand Push Notifications better, follow me on [GitHub page](https://github.com/PurpShell) or donate to my [PayPal](https://paypal.com/RajehTaher)
 
 Made by [PurpShell](https://github.com/PurpShell) with ❤.
